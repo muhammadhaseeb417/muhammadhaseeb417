@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=1e1035,4c1d95,7c3aed,6366f1&height=220&section=header&text=Muhammad%20Haseeb%20Amjad&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Software%20Engineer%20%7C%20AI%20%26%20Mobile%20Systems%20Architect&descAlignY=58&descAlign=50" width="100%" alt="Header Banner" />
+  <img src="https://raw.githubusercontent.com/muhammadhaseeb417/muhammadhaseeb417/main/assets/header.svg" width="100%" alt="Muhammad Haseeb Amjad - Header Banner" />
 </div>
 
 <div align="center">
@@ -282,14 +282,14 @@ Engineered cross-platform mobile solutions with strict focus on modular code mai
 ## GitHub Analytics & Intelligence
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=muhammadhaseeb417&show_icons=true&theme=radical&bg_color=0d1117&title_color=a78bfa&text_color=e2e8f0&icon_color=8b5cf6&border_color=6366f1&hide_border=false" width="48.5%" alt="GitHub Stats" />
+  <img src="https://github-stats-extended.vercel.app/api?username=muhammadhaseeb417&show_icons=true&theme=radical&bg_color=0d1117&title_color=a78bfa&text_color=e2e8f0&icon_color=8b5cf6&border_color=6366f1&hide_border=false" width="48.5%" alt="GitHub Stats" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=muhammadhaseeb417&theme=radical&background=0d1117&ring=8b5cf6&fire=a78bfa&currStreakLabel=a78bfa&currStreakNum=ffffff&sideNums=ffffff&sideLabels=e2e8f0&border=6366f1&hide_border=false" width="49.5%" alt="GitHub Streak" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muhammadhaseeb417&layout=compact&theme=radical&bg_color=0d1117&title_color=a78bfa&text_color=e2e8f0&border_color=6366f1&hide_border=false" width="60%" alt="Top Languages" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=muhammadhaseeb417&layout=compact&theme=radical&bg_color=0d1117&title_color=a78bfa&text_color=e2e8f0&border_color=6366f1&hide_border=false" width="60%" alt="Top Languages" />
 </div>
 
 ---
@@ -297,7 +297,7 @@ Engineered cross-platform mobile solutions with strict focus on modular code mai
 ## GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=muhammadhaseeb417&theme=radical&no-frame=false&no-bg=false&margin_w=4" width="100%" alt="GitHub Trophies" />
+  <img src="https://trophy.ryglcloud.net/?username=muhammadhaseeb417&theme=radical&no-frame=false&no-bg=false&margin_w=4" width="100%" alt="GitHub Trophies" />
 </div>
 
 ---
@@ -305,7 +305,7 @@ Engineered cross-platform mobile solutions with strict focus on modular code mai
 ## Contribution Activity
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=muhammadhaseeb417&theme=react-dark&bg_color=0d1117&color=a78bfa&line=8b5cf6&point=ffffff&area=true&hide_border=false" width="100%" alt="Contribution Activity Graph" />
+  <img src="https://fabianocouto-activity-graph.vercel.app/graph?username=muhammadhaseeb417&theme=react-dark&bg_color=0d1117&color=a78bfa&line=8b5cf6&point=ffffff&area=true&hide_border=false" width="100%" alt="Contribution Activity Graph" />
 </div>
 
 ---
@@ -364,5 +364,5 @@ current_focus:
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=6366f1,7c3aed,4c1d95,1e1035&height=120&section=footer" width="100%" alt="Footer Wave Banner" />
+  <img src="https://raw.githubusercontent.com/muhammadhaseeb417/muhammadhaseeb417/main/assets/footer.svg" width="100%" alt="Footer Wave Banner" />
 </div>

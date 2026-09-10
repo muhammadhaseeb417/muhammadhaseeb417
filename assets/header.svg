@@ -1,0 +1,78 @@
+<svg width="100%" height="220" viewBox="0 0 854 220" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0728" />
+      <stop offset="35%" stop-color="#2e1065" />
+      <stop offset="70%" stop-color="#581c87" />
+      <stop offset="100%" stop-color="#4338ca" />
+    </linearGradient>
+    <linearGradient id="gradWave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.5" />
+      <stop offset="50%" stop-color="#6366f1" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.6" />
+    </linearGradient>
+    <linearGradient id="gradWave2" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.35" />
+      <stop offset="50%" stop-color="#9333ea" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.35" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#a78bfa" flood-opacity="0.45" />
+    </filter>
+    <style>
+      .title {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        font-size: 40px;
+        font-weight: 800;
+        fill: #ffffff;
+        letter-spacing: 0.5px;
+      }
+      .subtitle {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        fill: #c4b5fd;
+        letter-spacing: 1px;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Rect -->
+  <rect width="854" height="220" fill="url(#grad1)" />
+
+  <!-- Animated Wave Layer 1 -->
+  <path fill="url(#gradWave1)">
+    <animate
+      attributeName="d"
+      dur="12s"
+      repeatCount="indefinite"
+      calcMode="spline"
+      keyTimes="0; 0.5; 1"
+      keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"
+      values="
+        M0 0 L0 155 Q 213.5 195 427 165 T 854 175 L 854 0 Z;
+        M0 0 L0 175 Q 213.5 145 427 185 T 854 150 L 854 0 Z;
+        M0 0 L0 155 Q 213.5 195 427 165 T 854 175 L 854 0 Z"
+    />
+  </path>
+
+  <!-- Animated Wave Layer 2 -->
+  <path fill="url(#gradWave2)">
+    <animate
+      attributeName="d"
+      dur="16s"
+      repeatCount="indefinite"
+      calcMode="spline"
+      keyTimes="0; 0.5; 1"
+      keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"
+      values="
+        M0 0 L0 165 Q 213.5 140 427 175 T 854 160 L 854 0 Z;
+        M0 0 L0 145 Q 213.5 185 427 150 T 854 180 L 854 0 Z;
+        M0 0 L0 165 Q 213.5 140 427 175 T 854 160 L 854 0 Z"
+    />
+  </path>
+
+  <!-- Header Content -->
+  <text x="50%" y="82" text-anchor="middle" dominant-baseline="middle" class="title" filter="url(#glow)">Muhammad Haseeb Amjad</text>
+  <text x="50%" y="128" text-anchor="middle" dominant-baseline="middle" class="subtitle">Full Stack Software Engineer | AI &amp; Mobile Systems Architect</text>
+</svg>
