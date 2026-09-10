@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/muhammadhaseeb417/muhammadhaseeb417/main/assets/header.svg" width="100%" alt="Muhammad Haseeb Amjad - Header Banner" />
+  <img src="./assets/header.svg" width="100%" alt="Muhammad Haseeb Amjad - Systems & Applied AI Architect" />
 </div>
 
 <div align="center">
@@ -109,7 +109,7 @@
 ## Featured Engineering Projects
 
 <details>
-<summary><b>1. Weariq AI — Production AI SaaS Platform</b></summary>
+<summary><b>1. Weariq AI â€” Production AI SaaS Platform</b></summary>
 <br/>
 
 A commercial full-stack AI platform built to deliver dynamic generative insights, automated workflow execution, and secure user data isolation.
@@ -129,7 +129,7 @@ Architected a resilient MERN-pattern application leveraging Next.js SSR primitiv
 <br/>
 
 <details>
-<summary><b>2. GymMate — Real-Time AI Workout Assistant (FYP)</b></summary>
+<summary><b>2. GymMate â€” Real-Time AI Workout Assistant (FYP)</b></summary>
 <br/>
 
 An edge AI mobile application performing real-time human pose estimation to prevent athletic injury, validate posture, and compute repetition accuracy autonomously.
@@ -149,7 +149,7 @@ Integrated MoveNet Lightning via an optimized TensorFlow Lite runtime on Android
 <br/>
 
 <details>
-<summary><b>3. Plant Identifier — Edge On-Device Computer Vision App</b></summary>
+<summary><b>3. Plant Identifier â€” Edge On-Device Computer Vision App</b></summary>
 <br/>
 
 A high-throughput botanical classification engine operating completely offline on consumer mobile hardware, distributed publicly on the Google Play Store.
@@ -169,7 +169,7 @@ Engineered and deployed a mobile-optimized CNN model quantized for ARM NEON arch
 <br/>
 
 <details>
-<summary><b>4. AI Assistant Web App — Enterprise Multi-LLM Workspace</b></summary>
+<summary><b>4. AI Assistant Web App â€” Enterprise Multi-LLM Workspace</b></summary>
 <br/>
 
 A full-stack intelligent conversational interface designed for low-latency multi-model inference, session persistence, and dynamic model switching.
@@ -190,8 +190,8 @@ Developed an extensible API proxy layer supporting hot-swapping between frontier
 
 ## Professional Experience
 
-### Full Stack Engineer (Internship) — Skylight Codeworks
-**Jul 2026 – Present** | *Lahore, Pakistan (On-site)*
+### Full Stack Engineer (Internship) â€” Skylight Codeworks
+**Jul 2026 â€“ Present** | *Lahore, Pakistan (On-site)*
 
 Leading full-stack engineering initiatives, optimizing legacy web architectures, and implementing resilient enterprise features using modern JavaScript and TypeScript ecosystems.
 
@@ -203,8 +203,8 @@ Leading full-stack engineering initiatives, optimizing legacy web architectures,
 
 <br/>
 
-### App Developer (Internship) — ANB Tech Solutions
-**Dec 2024 – Feb 2025** | *Remote*
+### App Developer (Internship) â€” ANB Tech Solutions
+**Dec 2024 â€“ Feb 2025** | *Remote*
 
 Engineered cross-platform mobile solutions with strict focus on modular code maintainability, reactive state synchronization, and native platform integration.
 

@@ -1,34 +1,83 @@
-<svg width="100%" height="110" viewBox="0 0 854 110" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+<svg width="100%" height="130" viewBox="0 0 920 130" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="footGrad1" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0f0728" />
-      <stop offset="40%" stop-color="#2e1065" />
-      <stop offset="75%" stop-color="#4c1d95" />
-      <stop offset="100%" stop-color="#312e81" />
+    <!-- Background Gradient -->
+    <linearGradient id="footBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0718" />
+      <stop offset="50%" stop-color="#120b29" />
+      <stop offset="100%" stop-color="#090615" />
     </linearGradient>
-    <linearGradient id="footWave" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.4" />
-      <stop offset="50%" stop-color="#6366f1" stop-opacity="0.5" />
-      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.35" />
+
+    <!-- Center Ambient Glow -->
+    <radialGradient id="footGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.22" />
+      <stop offset="70%" stop-color="#4f46e5" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#090615" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Top Wave Gradient -->
+    <linearGradient id="footWaveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.25" />
+      <stop offset="50%" stop-color="#6366f1" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="footBorderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#312e81" stop-opacity="0.6" />
+      <stop offset="30%" stop-color="#7c3aed" stop-opacity="0.75" />
+      <stop offset="70%" stop-color="#6366f1" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#312e81" stop-opacity="0.6" />
+    </linearGradient>
+
+    <!-- Hairline Accent -->
+    <linearGradient id="footAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0" />
+      <stop offset="50%" stop-color="#c4b5fd" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
     </linearGradient>
   </defs>
 
-  <!-- Background Rect -->
-  <rect width="854" height="110" fill="url(#footGrad1)" />
+  <!-- Base Card -->
+  <rect width="920" height="130" rx="12" fill="url(#footBgGrad)" />
+  <rect width="920" height="130" rx="12" fill="url(#footGlow)" />
 
-  <!-- Animated Bottom Wave -->
-  <path fill="url(#footWave)">
+  <!-- Animated Top Ambient Wave -->
+  <path fill="url(#footWaveGrad)">
     <animate
       attributeName="d"
-      dur="10s"
+      dur="12s"
       repeatCount="indefinite"
       calcMode="spline"
       keyTimes="0; 0.5; 1"
       keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"
       values="
-        M0 0 Q 213.5 45 427 15 T 854 30 L 854 0 L 0 0 Z;
-        M0 0 Q 213.5 15 427 40 T 854 10 L 854 0 L 0 0 Z;
-        M0 0 Q 213.5 45 427 15 T 854 30 L 854 0 L 0 0 Z"
+        M0 0 Q 230 25 460 10 T 920 20 L 920 0 Z;
+        M0 0 Q 230 8 460 22 T 920 6 L 920 0 Z;
+        M0 0 Q 230 25 460 10 T 920 20 L 920 0 Z"
     />
   </path>
+
+  <!-- Quote Typography -->
+  <text x="460" y="58" text-anchor="middle" dominant-baseline="middle" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="400" font-style="italic" letter-spacing="0.3">"Great software is not just written; it is architected with empathy, precision, and relentless obsession with performance."</text>
+
+  <!-- Divider Line -->
+  <line x1="260" y1="82" x2="660" y2="82" stroke="url(#footAccent)" stroke-width="1.2" />
+
+  <!-- Brand Sub-text -->
+  <text x="460" y="103" text-anchor="middle" dominant-baseline="middle" fill="#a78bfa" font-family="-apple-system, BlinkMacSystemFont, 'SF Mono', 'Segoe UI Mono', 'Fira Code', monospace" font-size="10.5" font-weight="600" letter-spacing="2.5">MUHAMMAD HASEEB AMJAD  ·  LAHORE, PAKISTAN  ·  ENGINEERING AT SCALE</text>
+
+  <!-- Subtle Corner Crosshairs -->
+  <g stroke="#4c1d95" stroke-width="1" opacity="0.6">
+    <line x1="20" y1="16" x2="20" y2="24" />
+    <line x1="16" y1="20" x2="24" y2="20" />
+    <line x1="900" y1="16" x2="900" y2="24" />
+    <line x1="896" y1="20" x2="904" y2="20" />
+    <line x1="20" y1="106" x2="20" y2="114" />
+    <line x1="16" y1="110" x2="24" y2="110" />
+    <line x1="900" y1="106" x2="900" y2="114" />
+    <line x1="896" y1="110" x2="904" y2="110" />
+  </g>
+
+  <!-- Card Border -->
+  <rect x="0.5" y="0.5" width="919" height="129" rx="11.5" stroke="url(#footBorderGrad)" stroke-width="1" />
 </svg>
