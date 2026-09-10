@@ -360,9 +360,5 @@ current_focus:
 ---
 
 <div align="center">
-  <sub>"Great software is not just written; it is architected with empathy, precision, and relentless obsession with performance."</sub>
-</div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/muhammadhaseeb417/muhammadhaseeb417/main/assets/footer.svg" width="100%" alt="Footer Wave Banner" />
+  <img src="./assets/footer.svg" width="100%" alt="Muhammad Haseeb Amjad" />
 </div>
